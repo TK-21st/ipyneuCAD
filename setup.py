@@ -140,6 +140,7 @@ setup_args = {
     ],
     'install_requires': [
         'ipywidgets>=7.0.0',
+        'networkx>=2.2.0'
     ],
     'packages': find_packages(),
     'zip_safe': False,
@@ -152,7 +153,7 @@ setup_args = {
 
     'author': 'Tingkai Liu',
     'author_email': 'tl2747@columbia.edu',
-    'url': 'https://github.com/fruitflybrain/ipyneuCAD',
+    'url': 'https://github.com/TK-21st/ipyneuCAD',
     'keywords': [
         'ipython',
         'jupyter',
