@@ -403,12 +403,12 @@ var NeuCADView = widgets.DOMWidgetView.extend({
 
     let controlPanel = new dat.default.GUI(GUIOptions);
 
-    var _btn = new newButton('SyncData', () => {
-      let newData = graph2Data(self.graph);
-      self.model.set('data',newData);
-      self.touch();
-    });
-    controlPanel.add(_btn, 'SyncData').name('Synchronize Data to Backend');
+    // var _btn = new newButton('SyncData', () => {
+    //   let newData = graph2Data(self.graph);
+    //   self.model.set('data',newData);
+    //   // self.touch();
+    // });
+    // controlPanel.add(_btn, 'SyncData').name('Synchronize Data to Backend');
 
 
     // node attributes are shown inside the gui under this folder
@@ -418,12 +418,12 @@ var NeuCADView = widgets.DOMWidgetView.extend({
       if (self.layout && self.layout.running) {
         // $(".dg li[icon] svg.fa-circle-notch").removeClass('fa-spin');
         this.model.set('start_layout',false);
-        this.touch();
+        // this.touch();
         self.layout.stop();
       }
       else {
         this.model.set('start_layout',true);
-        this.touch();
+        // this.touch();
         // $(".dg li[icon] svg.fa-circle-notch").addClass('fa-spin');
         self.layout.start();
       }
