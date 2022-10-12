@@ -37,7 +37,7 @@
     "dat.gui": "^0.7.5",
     "graphology": "0.14.0",
     "graphology-layout-forceatlas2": "^0.2.1",
-    "graphology-library": "^0.2.0",
+    "graphology-library": "^0.7.1",
     "lodash": "^4.17.4",
     "sigma": "2.0.0-alpha20"
   },
